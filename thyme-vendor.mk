@@ -81,14 +81,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/thyme/proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/thyme/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/bin/hw/android.hardware.biometrics.fingerprint@2.3-service.thyme:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/bin/hw/android.hardware.biometrics.fingerprint@2.3-service.thyme \
+    vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/bin/hw/vendor.qti.hardware.vibrator.service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/bin/hw/vendor.qti.hardware.vibrator.service \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/etc/init/android.hardware.biometrics.fingerprint@2.3-service.thyme.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/init/android.hardware.biometrics.fingerprint@2.3-service.thyme.rc \
+    vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/etc/init/vendor.qti.hardware.vibrator.service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/init/vendor.qti.hardware.vibrator.service.rc \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/rfsa/adsp/misound_res.bin \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib/rfsa/adsp/misound_res_headphone.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/rfsa/adsp/misound_res_headphone.bin \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib/rfsa/adsp/misound_res_spk.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/rfsa/adsp/misound_res_spk.bin \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib64/android.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/android.hardware.biometrics.fingerprint@2.2.so \
     vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib64/android.hardware.biometrics.fingerprint@2.3.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/android.hardware.biometrics.fingerprint@2.3.so \
-    vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib64/libqtivibratoreffect.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libqtivibratoreffect.so \
+    vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/thyme/proprietary/product/vendor_overlay/30/lib64/vendor.qti.hardware.vibrator.impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/vendor.qti.hardware.vibrator.impl.so
 
 PRODUCT_PACKAGES += \
     IFAAService \
